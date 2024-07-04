@@ -31,9 +31,6 @@ class _MyAppState extends State<MyApp> {
         _action = action;
       });
 
-      print('This is action process');
-      print(action);
-
       if (action == 'shortcut.send_money') {
         navigatorKey.currentState?.push(
           MaterialPageRoute(
